@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Motor Display</string>
+    <string name="waiting_for_mqtt_data">Waiting for MQTT data…</string>
+    <string name="disclaimer_text">This application was developed by Sai Pranith Bhagavatula as part of a lab project under the guidance of Prof. Prasun Mishra at IIT Kharagpur. It is intended solely for testing and academic purposes.</string>
+    <string name="placeholder">Waiting for MQTT data…</string>
+    <string name="motor_speed_display">Motor Speed Display</string>
+    <string name="switch_server">Switch Server</string>
+    <string name="connected_hivemq">Connected: HiveMQ</string>
+</resources>
