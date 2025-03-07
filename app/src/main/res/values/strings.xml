@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Motor Display</string>
+    <string name="app_name">Motor Monitor Dashboard</string>
     <string name="waiting_for_mqtt_data">Waiting for MQTT data…</string>
     <string name="disclaimer_text">This application was developed by Sai Pranith Bhagavatula as part of a lab project under the guidance of Prof. Prasun Mishra at IIT Kharagpur. It is intended solely for testing and academic purposes.</string>
     <string name="placeholder">Waiting for MQTT data…</string>
