@@ -14,17 +14,17 @@ A real-time motor speed monitoring app that receives sensor data via **MQTT** an
 ---
 
 ## Installation & Setup
-### 1️⃣ **Clone the Repository**
+### **Clone the Repository**
 ```sh
 git clone https://github.com/your-username/MotorSpeedDisplay.git
 cd MotorSpeedDisplay
 ```
 
-### 2️⃣ **Run the Android App**
+### **Run the Android App**
 - Open the project in **Android Studio**  
 - Click **Run** to launch the app  
 
-### 3️⃣ **Flash ESP8266/ESP32 Code**
+### **Flash ESP8266/ESP32 Code**
 - Open `MotorSpeedDisplay.ino` in **Arduino IDE**  
 - Configure **WiFi credentials** & **MQTT settings**  
 - Upload to **ESP8266/ESP32**  
