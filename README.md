@@ -1,10 +1,10 @@
-# 🚀 Motor Speed Display App
+# Motor Speed Display App
 
 A real-time motor speed monitoring app that receives sensor data via **MQTT** and displays it beautifully. Built using **Kotlin**, **ESP8266/ESP32**, and **Mosquitto/HiveMQ MQTT Brokers**.
 
 ---
 
-## 📌 Features
+## Features
 ✔ **Real-time motor speed display**  
 ✔ **Switch between MQTT brokers (Mosquitto & HiveMQ)**  
 ✔ **Automatic broker fallback when one is down**  
@@ -13,7 +13,7 @@ A real-time motor speed monitoring app that receives sensor data via **MQTT** an
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 ### 1️⃣ **Clone the Repository**
 ```sh
 git clone https://github.com/your-username/MotorSpeedDisplay.git
@@ -31,25 +31,25 @@ cd MotorSpeedDisplay
 
 ---
 
-## 🔄 Switching MQTT Brokers
+## Switching MQTT Brokers
 If one broker is down, click **"Switch Server"** in the app to swap between:
 - 🟢 **HiveMQ** (`broker.hivemq.com`)
 - 🔵 **Mosquitto** (`test.mosquitto.org`)
 
 ---
 
-## 📜 License
+## License
 This project is **MIT Licensed**. Feel free to modify and distribute.  
 
 ---
 
-## 👨‍💻 Author & Credits
+## Author & Credits
 - **Sai Pranith Bhagavatula** – Creator & Developer  
 - **Prof. Prasun Mishra, IIT Kharagpur** – Guide & Advisor  
 
 ---
 
-## ⭐ Support & Contributions
+## Support & Contributions
 Contributions are welcome! Fork the repo, make changes, and open a **Pull Request**.  
 
 ---
