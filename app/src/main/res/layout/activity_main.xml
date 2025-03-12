@@ -12,9 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:paddingBottom="10dp">
 
-        <!-- Server Switch Button -->
+        <!-- Switch Server Button -->
         <Button
             android:id="@+id/switchServerButton"
             android:layout_width="wrap_content"
@@ -25,7 +26,7 @@
             android:padding="10dp"
             android:layout_marginEnd="10dp" />
 
-        <!-- TextView to Show Current Server -->
+        <!-- Broker Status Display -->
         <TextView
             android:id="@+id/serverStatus"
             android:layout_width="wrap_content"
@@ -45,8 +46,41 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="#333333"
-        android:paddingTop="10dp"
         android:paddingBottom="20dp" />
+
+    <!-- Topic Subscription Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="20dp">
+
+        <!-- Topic Input Box -->
+        <EditText
+            android:id="@+id/topicInput"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:autofillHints="name"
+            android:hint="@string/topicInput"
+            android:inputType="text"
+            android:padding="10dp"
+            android:background="@drawable/input_background"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Subscribe Button -->
+        <Button
+            android:id="@+id/subscribeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subscribe"
+            android:backgroundTint="#43A047"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
 
     <!-- Motor Speed Display Card -->
     <LinearLayout
