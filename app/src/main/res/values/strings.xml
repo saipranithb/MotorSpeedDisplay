@@ -8,4 +8,5 @@
     <string name="connected_hivemq">Connected: HiveMQ</string>
     <string name="topicInput">Enter the topic</string>
     <string name="subscribe">Subscribe</string>
+    <string name="stop_updates_export_csv"><![CDATA[Stop Updates & Export CSV]]></string>
 </resources>

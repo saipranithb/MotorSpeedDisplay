@@ -102,6 +102,17 @@
             android:textColor="#1E88E5" />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/stopUpdatesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_updates_export_csv"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"/>
+
+
     <!-- Footer Text (Credit Line) -->
     <TextView
         android:id="@+id/footerText"

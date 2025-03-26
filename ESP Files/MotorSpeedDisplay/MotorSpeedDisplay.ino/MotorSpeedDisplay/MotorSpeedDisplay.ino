@@ -1,4 +1,4 @@
-#include <ESP8266WiFi.h>    // Use WiFi.h for ESP32, ESP8266WiFi.h for ESP8266
+#include <WiFi.h>    // Use WiFi.h for ESP32, ESP8266WiFi.h for ESP8266
 #include <PubSubClient.h>   // MQTT library
 
 const char* ssid = "OnePlus 12R";
@@ -10,7 +10,7 @@ const char* mosquitto_broker = "test.mosquitto.org";
 const int mqtt_port = 1883;
 
 // Topic
-const char* mqtt_topic = "esp8266/gp_motor";
+const char* mqtt_topic = "bms/gp_motor";
 
 // Variables to track broker switching
 bool useHiveMQ = true;  // Start with HiveMQ
@@ -19,7 +19,7 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(9600);
 
     WiFi.begin(ssid, password);
     Serial.print("Connecting to WiFi...");

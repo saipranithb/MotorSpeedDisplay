@@ -1,7 +1,5 @@
 package com.thevaguebox.motordisplay
 
-import android.os.Handler
-import android.os.Looper
 import android.util.Log
 import org.eclipse.paho.client.mqttv3.*
 import java.util.concurrent.Executors
@@ -31,6 +29,16 @@ class MQTTHelper(brokerUrl: String, clientId: String, private val topic: String)
             subscribeToTopic()
         } catch (e: Exception) {
             Log.e("MQTT", "❌ Connection failed: ${e.message}")
+        }
+    }
+
+    fun disconnect() {
+        try {
+            mqttClient?.unsubscribe(topic)
+            mqttClient?.disconnect()
+            mqttClient?.close()
+        } catch (e: Exception) {
+            e.printStackTrace()
         }
     }
 
